@@ -1,4 +1,4 @@
-const API_KEY='GANTI_DENGAN_API_KEY_TMDB';
+const API_KEY='1ca6247cb588c993969b3781d7a45cb7';
 loadDrama();
 async function loadDrama(){
  const res=await fetch(`https://api.themoviedb.org/3/discover/tv?api_key=${API_KEY}&with_origin_country=CN&language=id-ID&sort_by=popularity.desc`);
